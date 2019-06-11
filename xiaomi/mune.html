@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.both{
+				width: 1310px;
+				height: 90px;
+				border: 1px solid red;
+				margin-left:20px ;
+			}
+			.above{
+				width: 1290px;
+				height: 90px;
+			border: 1px solid red;
+				margin-left:10px ;
+			}
+			.below{
+				width: 1290px;
+				height: 500px;
+			border: 1px solid blue;
+				margin-left:10px ;
+			}
+			
+			.list{
+				width: 243px;
+				height: 400px;
+		border: 1px solid red;
+				margin-left:11px ;
+				float: left;
+			}
+			.tip{
+				width: 240px;
+				height: 27px;
+				border: 1px solid red;		
+				color: red;
+				text-align: center;
+			}
+			.picture{
+				width: 240px;
+				height: 300px;
+				border: 1px solid blue;											
+			}
+			.name{
+				width: 240px;
+				height: 30px;
+			border: 1px solid red;
+				text-align: center;
+				color: black;
+			}
+			.price{
+				color: red;
+				width: 240px;
+				height: 30px;
+				border: 1px solid red;
+				text-align: center;
+			}
+			.aboveleft{
+				width: 100px;
+				height: 90px;
+				border: 1px solid red;
+				margin-left:20px ;
+				float: left;
+			}
+			.aboveright{
+				width: 800px;
+				height: 90px;
+				border: 1px solid red;
+				margin-left:150px ;
+			}
+			ul{
+				width: 750px;
+				height: 80px;
+				border: 1px solid blue;
+				margin-top: 0px;
+			
+			}
+			.one,
+			.two,
+			.three,
+			.four,
+			.five,
+			.six,
+			.seven,
+			.eight,
+			.nine,
+			.ten{
+				width: 80px;
+				height: 42px;
+				border: 1px solid orange;
+				margin-top: 20px;
+				list-style: none;
+				margin-left: -7px;
+				float: left;
+				font-size: larger;
+				text-align: center;
+			}
+			li:hover{
+				color: #FFA500;
+			}
+			.belowsecond{
+				width: 1285px;
+				height: 495px;
+				border: 1px solid red;
+				display: none;
+				margin-left: -347px;
+    			margin-top: 55px;
+    			position: absolute;
+   				 left: 389px;
+			}
+			.one:hover .belowsecond{
+				display: block;
+				
+			}
+			
+			.two:hover .belowsecond{
+				display: block;
+			}
+				.three:hover .belowsecond{
+				display: block;
+			}
+				.four:hover .belowsecond{
+				display: block;
+			}
+				.five:hover .belowsecond{
+				display: block;
+			}
+				.six:hover .belowsecond{
+				display: block;
+			}
+				.seven:hover .belowsecond{
+				display: block;
+			}
+				.eight:hover .belowsecond{
+				display: block;
+			}
+				.nine:hover .belowsecond{
+				display: block;
+			}
+				.ten:hover .belowsecond{
+				display: block;
+			}
+		.heaser_search{
+			width: 200px;
+			height: 80px;
+			border: 1px solid blue;
+			float: right;
+			margin-top: -89px;
+    		margin-right: 89px;
+		}	
+		.search_text{
+			position: absolute;
+		    top: 30;
+		    right: 51px;
+		    z-index: 1;
+		    width: 223px;
+		    height: 48px;
+		    padding: 0 10px;
+		    border: 1px solid #e0e0e0;
+		    font-size: 14px;
+		    line-height: 48px;
+		    outline: 0;
+		    -webkit-transition: all .2s;
+		    transition: all .2s;
+    	}
+    	.search-bth{
+    	position: absolute;
+	    right: 0;
+	    top: 14px;
+	    z-index: 2;
+	    width: 52px;
+	    height: 50px;
+	    border: 1px solid #e0e0e0;
+	    font-size: 24px;
+	    line-height: 24px;
+	    background: #fff;
+	    color: #616161;
+	    outline: 0;
+	    -webkit-transition: all .2s;
+	    transition: all .2s;
+    }
+    .search-hot-words{
+    	display: block;
+    	position: absolute;
+		top: 14px;
+		right: 62px;
+		z-index: 2;
+		text-align: right;
+    }
+    .search_text:hover~.search-hot-words{
+    	display: none;
+    }
+    a{
+    	    display: inline-block;
+    	    margin-left: 5px;
+		    padding: 0 5px;
+		    font-size: 15px;
+		    background: #eee;
+		    color: #757575;
+		    -webkit-transition: all .2s;
+		    transition: all .2s;
+		    margin-top: 23px;
+    
+    }
+		</style>
+	</head>
+	<body>
+		<div class="both">
+			<div class="above">
+				<div class="aboveleft">
+					<img src="img/12.png"width=100% height=100%>
+				</div>
+				<div class="aboveright">
+					<ul>
+						<li class="one">小米手机
+						<div class="belowsecond">
+							<div class="list">
+								<div class="tip">新品</div>
+								<div class="picture"><img src="img/1-1.png"width=100% height=100%></div>
+								<div class="name">小米9</div>
+								<div class="price">2999元</div>				
+							</div>	
+							<div class="list">
+								<div class="tip">新品</div>
+								<div class="picture"><img src="img/1-2.jpg"width=100% height=100%></div>
+								<div class="name">小米9SE</div>
+								<div class="price">1999元</div>				
+							</div>	
+							<div class="list">
+								<div class="tip"></div>
+								<div class="picture"><img src="img/1-3.png"width=100% height=100%></div>
+								<div class="name">小米8青春版 </div>
+								<div class="price">1499元</div>					
+							</div>	
+							<div class="list">
+								<div class="tip"></div>
+								<div class="picture"><img src="img/1-4.png"width=100% height=100%></div>
+								<div class="name">小米MIX3</div>
+								<div class="price">3299元</div>				
+							</div>	
+							<div class="list">
+								<div class="tip"></div>
+								<div class="picture"><img src="img/1-5.png"width=100% height=100%></div>
+								<div class="name">小米8</div>
+								<div class="price">2599元</div>					
+							</div>						
+						</div>
+								</li>
+						<li class="two">红米
+							<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/2-1.jpg"width=100% height=100%></div>
+										<div class="name">Redmi K20 Pro</div>
+										<div class="price">2499元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/2-2.jpg"width=100% height=100%></div>
+										<div class="name">Redmi K20</div>
+										<div class="price">1999元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/2-3.jpg"width=100% height=100%></div>
+										<div class="name">Redmi 7A</div>
+										<div class="price">549元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/2-4.jpg"width=100% height=100%></div>
+										<div class="name">Redmi Note 7Pro</div>
+										<div class="price">1599元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/2-5.png"width=100% height=100%></div>
+										<div class="name">Redmi Note7</div>
+										<div class="price">999元</div>					
+									</div>	
+									
+								</div>	
+				
+						</li>
+						<li class="three">电视
+							<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/3-1.jpg"width=100% height=100%></div>
+										<div class="name">小米壁画电视 65寸</div>
+										<div class="price">6999元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/3-2.jpg"width=100% height=100%></div>
+										<div class="name">小米全面屏电视55寸</div>
+										<div class="price">2249元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/3-3.png"width=100% height=100%></div>
+										<div class="name">小米电视4A 32寸</div>
+										<div class="price">799元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/3-4.jpg"width=100% height=100%></div>
+										<div class="name">小米电视4A 55寸</div>
+										<div class="price">2099元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/3-5.jpg"width=100% height=100%></div>
+										<div class="name">小米电视4A 65寸</div>
+										<div class="price">2849元</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						
+						<li class="four">笔记本
+						<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/4-1.png"width=100% height=100%></div>
+										<div class="name">	RedmiBook14</div>
+										<div class="price">3299元起</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/4-2.png"width=100% height=100%></div>
+										<div class="name">小米笔记本air 12.5"</div>
+										<div class="price">3599元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/4-3.png"width=100% height=100%></div>
+										<div class="name">小米笔记本air 13.3"</div>
+										<div class="price">4799元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/4-4.png"width=100% height=100%></div>
+										<div class="name">小米笔记本air 15.6"</div>
+										<div class="price">3399元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/4-5.png"width=100% height=100%></div>
+										<div class="name">小米笔记本Pro 15.6"</div>
+										<div class="price">5599元</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						<li class="five">家电
+						<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/5-1.png"width=100% height=100%></div>
+										<div class="name">米家互联网立式空调c1</div>
+										<div class="price">2999元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/5-2.jpg"width=100% height=100%></div>
+										<div class="name">米家互联网洗烘一体机</div>
+										<div class="price">2199元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/5-3.jpg"width=100% height=100%></div>
+										<div class="name">全自动波轮洗衣机</div>
+										<div class="price">899元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/5-4.jpg"width=100% height=100%></div>
+										<div class="name">小米净水器</div>
+										<div class="price">1999元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/5-5.jpg"width=100% height=100%></div>
+										<div class="name">米家扫地机器人</div>
+										<div class="price">1699元</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						<li class="six">新品
+						<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/6-1.jpg"width=100% height=100%></div>
+										<div class="name">Redmi Note7Pro</div>
+										<div class="price">1599元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/6-2.jpg"width=100% height=100%></div>
+										<div class="name">小米9</div>
+										<div class="price">2999元起</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/6-3.jpg"width=100% height=100%></div>
+										<div class="name">小米9SE</div>
+										<div class="price">1999元起</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/6-4.jpg"width=100% height=100%></div>
+										<div class="name">红米note7</div>
+										<div class="price">999元起</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/6-5.jpg"width=100% height=100%></div>
+										<div class="name">小米无线充电宝10000mAh</div>
+										<div class="price">149元</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						<li class="seven">路由器
+							<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/7-1.jpg"width=100% height=100%></div>
+										<div class="name">小米路由器Mesh</div>
+										<div class="price">999元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/7-2.jpg"width=100% height=100%></div>
+										<div class="name">小米路由器4A千兆版</div>
+										<div class="price">169元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/7-3.png"width=100% height=100%></div>
+										<div class="name">小米路由器4C</div>
+										<div class="price">99元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/7-4.jpg"width=100% height=100%></div>
+										<div class="name">小米路由器4A</div>
+										<div class="price">119元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/7-5.png"width=100% height=100%></div>
+										<div class="name">小米路由器HD/Pro</div>
+										<div class="price">499元起</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						<li class="eight">智能硬件
+						<div class="belowsecond">
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/8-1.jpg"width=100% height=100%></div>
+										<div class="name">小米米家智能摄像机</div>
+										<div class="price">199元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip">新品</div>
+										<div class="picture"><img src="img/8-2.jpg"width=100% height=100%></div>
+										<div class="name">米家自动洗手机套装</div>
+										<div class="price">79元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/8-3.jpg"width=100% height=100%></div>
+										<div class="name">小米蓝牙耳机</div>
+										<div class="price">199元</div>					
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/8-4.jpg"width=100% height=100%></div>
+										<div class="name">小米小爱触屏音箱</div>
+										<div class="price">299元</div>				
+									</div>	
+									<div class="list">
+										<div class="tip"></div>
+										<div class="picture"><img src="img/8-5.jpg"width=100% height=100%></div>
+										<div class="name">米家电动剃须刀</div>
+										<div class="price">199元</div>					
+									</div>	
+									
+								</div>	
+						</li>
+						<li class="nine">服务</li>
+						<li class="ten">社区</li>
+						
+					</ul>					
+		</div>
+		<span class="heaser_search">
+						<input class="search_text">
+							<span class="search-bth "<img src="img/aa.png"width=100% height=100%></span>
+							<div class="search-hot-words">
+								<a>小米9</a>
+								<a>小米9SE</a>
+							</div>
+						</span>
+		
+				</div>
+			</div>
+			
+		
+						
+			
+			
+			
+			
+		</div>
+	</body>
+</html>

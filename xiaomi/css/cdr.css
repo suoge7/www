@@ -1,0 +1,36 @@
+.site-categroy{
+	width: 234px;
+	height: 460px;
+	border: 1px solid;
+	background-color: #87CEEB;
+	position: absolute;
+}
+ul{
+	list-style-type: none;
+	padding-inline-start:0;
+}
+.categroy_first_ul > li{
+	line-height: 42px;
+	color: #fff;
+}
+.categroy_first_ul > li:hover{
+	background-color:#ff6700;
+}
+.display_div{
+    height: 462px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    top: -1px;
+    left: 235px;
+    /*display: none;*/
+}
+li:hover .display_div{
+	display: block;
+}
+.display_ul > li{
+    float: left;
+    width: 164px;
+    border: 1px solid;
+    line-height: 73px;
+}
